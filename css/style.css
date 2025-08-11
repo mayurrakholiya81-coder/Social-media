@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* padding: 10px 0px; */
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.container-1 {
+    width: 100%;
+    height: 100px;
+    padding: 10px 15px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.float-l {
+    float: left;
+}
+
+.logo {
+    width: 20%;
+    
+}
+
+.logo img {
+    width: 52%;
+    
+}
+
+.search {
+    width: 60%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.search input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(205, 205, 205);
+    
+}
+
+.btn {
+    width: 10%;
+    padding-top: 25px;
+}
+
+.btn .clikbtn {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(273deg, rgba(253, 29, 29, 1) 55%, rgba(255, 182, 79, 1) 100%);
+    color: white;
+    cursor: pointer;
+     font-family: "Oswald", sans-serif;
+}
+
+.icon {
+    width: 10%;
+    font-size: 20;
+    padding-top: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+     font-family: "Oswald", sans-serif;
+   
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background: #000;
+    border-right: 1px solid rgb(255, 255, 255);
+   
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.sidebar ul li {
+    padding: 8px;
+    margin: 26px 36px;
+}
+
+
+
+.sidebar .hoverr{
+    width: 414px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.sidebar .hoverr :hover{
+    background-color: rgba(75, 75, 75, 0.305);
+    border-radius: 7px;
+     cursor: pointer;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+   font-family: "Oswald", sans-serif;
+
+}
+
+.content {
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.reelspage {
+    width: 60%;
+    height: 100vh;
+    /* background: #dc0e0e; */
+}
+
+.storyp{
+    width: 100%;
+    height: 115px;
+    /* background: #111ba4; */
+    margin-top: 13px;
+}
+
+.addingpage {
+    width: 40%;
+    height: 100vh;
+    /* background: #b1b1b1; */
+}
+
+.reelspage .story{
+    margin: 0px;
+    
+}
+
+.reelspage .story .user {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(25, 0, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.reelspage .story .user img {
+    width: 100%;
+}
+
+.id-name{
+    text-align: center;
+    padding: 23px;
+    font-weight: 10;
+    color: white;
+     font-family: "Oswald", sans-serif;
+}
+
+.post-page{
+    height: auto    ;
+    width: 55%;
+    /* background: #3bac4c; */
+    margin: 0 auto;
+    
+}
+
+.post-top{
+    width: 100%;
+    /* height: 80px; */
+    /* background: #958383; */
+}
+
+.post-top .story1{
+    width: 10%;
+    /* height: 80px; */
+    /* background: #ff0000; */
+}
+
+.post-top .profile-name{
+     width: 80%;
+    /* height: 80px; */
+    /* background: #10a573; */
+    padding: 8px;
+}
+
+.post-page .menu{
+     width: 10%;
+    /* height: 80px; */
+    /* background: #ff00ae; */
+}
+
+.story1 .user1{
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.user1 img{
+    width: 100%;
+   
+}
+
+.user-id h2{
+    font-size: 25px;
+    color: white;
+     font-family: "Oswald", sans-serif;
+}
+
+.user-id h5{
+    padding-top: 6px;
+    font-size: 18px;
+      color: white;
+       font-family: "Oswald", sans-serif;
+}
+
+.user-id h4{
+    padding-top: 6px;
+      color: white;
+       font-family: "Oswald", sans-serif;
+}
+
+.menu .icon-manu{
+    font-size: 26px;
+    padding-left: 4px;
+    margin-top: 15px;
+      color: white; 
+       font-family: "Oswald", sans-serif;
+}
+
+.post-img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.post-img img{
+     width: 100%;
+}
+
+.icon-like {
+    width: 469px;
+}
+
+.conten{
+    color: white;
+     font-family: "Oswald", sans-serif;
+}
+
+.ty{
+    width: 469px;
+    font-size: 19px;
+}
+
+.good{
+     font-size: 19px;   
+}
+
+.hed-right{
+    /* background: #aecca0; */
+    width: 70%;
+    height: auto;
+    margin-top: 39px;
+    margin-left: 30px;
+}
+
+.hed-right .imgg{
+    width: 20%;
+    height: 100px;
+    /* background: #877575; */
+}
+
+.imgg .story11{
+    width: 10%;
+    height: 80px;
+    
+}
+
+.user11 img{
+    width: 100%;
+    scale: 1.3;
+    margin-left: -4px;
+    margin-top: 7px;
+}
+
+.story11 .user11{
+    height: 60px;
+    width: 60px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 9px;
+    padding-left: 10px;
+}
+
+.hed-right .contenn{
+    width: 60%;
+    height: 100px;
+    /* background: #c92929; */
+    color: rgb(255, 255, 255);
+      font-family: "Oswald", sans-serif;
+}
+
+.contenn .tex {
+    font-size: 20px;
+    color: whitesmoke;
+      font-family: "Oswald", sans-serif;
+}
+
+.contenn h3 {
+    margin-top: 10px;   
+     font-family: "Oswald", sans-serif;
+}
+
+.hed-right .btu{
+    width: 20%;
+    height: 100px;
+    /* background: #22a53f; */
+}
+
+.btu button{
+    color: rgb(64, 64, 230);
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    margin-top: 21px;
+}
+
+.miidbox{
+    width: 60%;
+    height: auto;
+    /* background: #17c631; */
+    margin-left: 60px;
+}
+
+.miidbox .box-1{
+    width:80%;
+    
+   
+}
+
+.box-1 h2{
+    width: 200px;
+     /* background: #919191; */
+     color: white;
+       font-family: "Oswald", sans-serif;
+}
+
+.btnn button{
+     /* margin-left: 170px; */
+     border: none;
+     background: transparent;
+     color: blue;
+     font-size: 15px;
+     padding-left: 22px;
+     width: 20%;
+       font-family: "Oswald", sans-serif;
+}
+
+.con{
+    color: white;
+    padding-left: 20px
+    
+}
+
+
+.tyw{
+    color: white;
+      font-family: "Oswald", sans-serif;
+}
