@@ -153,6 +153,7 @@ header {
     border-radius: 50%;
     overflow: hidden;
     margin: 15px;
+    cursor: pointer;
 }
 
 .reelspage .story .user img {
@@ -165,6 +166,7 @@ header {
     font-weight: 10;
     color: white;
      font-family: "Oswald", sans-serif;
+     cursor: pointer;
 }
 
 .post-page{
@@ -208,10 +210,12 @@ header {
     overflow: hidden;
     margin: 10px;
     margin-left: 1px;
+    cursor: pointer;
 }
 
 .user1 img{
     width: 100%;
+    cursor: pointer;
    
 }
 
@@ -219,6 +223,7 @@ header {
     font-size: 25px;
     color: white;
      font-family: "Oswald", sans-serif;
+     cursor: pointer;
 }
 
 .user-id h5{
@@ -226,6 +231,7 @@ header {
     font-size: 18px;
       color: white;
        font-family: "Oswald", sans-serif;
+       cursor: pointer;
 }
 
 .user-id h4{
@@ -240,35 +246,47 @@ header {
     margin-top: 15px;
       color: white; 
        font-family: "Oswald", sans-serif;
+       cursor: pointer;
 }
 
 .post-img{
     height: auto;
     width: 100%;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .post-img img{
      width: 100%;
+     cursor: pointer;
 }
 
 .icon-like {
     width: 469px;
+    cursor: pointer;
 }
 
 .conten{
     color: white;
      font-family: "Oswald", sans-serif;
+     cursor: pointer;
 }
 
 .ty{
     width: 469px;
     font-size: 19px;
+    cursor: pointer;
 }
 
 .good{
      font-size: 19px;   
+     cursor: pointer;
 }
+
+.save{
+    cursor: pointer;    
+}
+
 
 .hed-right{
     /* background: #aecca0; */
@@ -276,6 +294,7 @@ header {
     height: auto;
     margin-top: 39px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .hed-right .imgg{
